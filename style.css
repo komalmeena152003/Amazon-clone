@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.nav-logo .logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.nav-address, .nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-search {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.nav-search button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-links .nav-item i {
+    font-size: 24px;
+}
+
+.hero {
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
